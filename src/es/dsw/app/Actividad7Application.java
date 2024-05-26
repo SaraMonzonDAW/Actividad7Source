@@ -1,5 +1,7 @@
 package es.dsw.app;
 
+import es.dsw.models.Profesor;
+
 public class Actividad7Application {
 
 	public static void main(String[] args) {
@@ -12,10 +14,8 @@ public class Actividad7Application {
 		System.out.println("########                                 #########");
 		System.out.println("##################################################");
 		
-		
-
-
-
+		Profesor objProfesor = new Profesor("Pepito", "Perez", "Sanchez", "44332234L");
+		System.out.println ("El nuevo profesor se llama " + objProfesor.getNombre());
 
 		
 	}
